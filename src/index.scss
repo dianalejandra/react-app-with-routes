@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css");
+
+
+body {
+    background-color: navy;
+    text-align: center;
+    margin: 1% auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logoimg{
+  width: 15%;
+}
+
+#contenedor{
+  text-align: center;
+  background-color: lightblue;
+  padding: 2%;
+}
+#navegacion ul{
+  margin:0;
+  display: flex;
+  justify-content: space-evenly;
+  li{
+      list-style: none;
+  }
+}
+.card{
+  width: 18rem;
+}
+.selected{
+  
+  padding: 1%;
+}
+.btn{
+  margin-top: 10px;
+}
+#ratings{
+  display:flex;
+  flex-direction: column;  
+  justify-content: space-around;
+  margin:0 auto;
+}
+.rating{
+  margin:1% auto;
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-around;
+  text-align: center;
+  background-color: #ebf6f9;
+  border-radius: 20px;
+  padding: 0.5%;
+  height:max-content ;
+  width: 60% ;
+}
+#productos1, #productos2{
+  margin: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer{
+  background-color: black;
+  color: white;
+}
